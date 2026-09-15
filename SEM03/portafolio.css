@@ -10,7 +10,16 @@ body{
     background: rgb(39, 61, 3);
     padding: 30px;
 }
-
+a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    margin-right: 30px;
+}
+a:hover{
+    font-size: 18px;
+    color: rgb(24, 202, 74);
+}
 .container{
 
     height: 100%;
