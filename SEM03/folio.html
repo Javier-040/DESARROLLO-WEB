@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de desarrollador web. Proyectos, habilidades y contacto.">
+  <title>Tu Nombre | Desarrollador Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">Tu<span>Nombre</span></a>
+      <ul class="nav__menu" id="nav-menu">
+        <li class="nav__item"><a href="../SEM03/folio.html" class="nav__link active">Inicio</a></li>
+        <li class="nav__item"><a href="../SEM04/fomrulario.html" class="nav__link">SEM04 JS</a></li>
+        <li class="nav__item"><a href="../SEM03/folio.html" class="nav__link">SEM03 Folio IA</a></li>
+        <li class="nav__item"><a href="../SEM03/portafolio.html" class="nav__link">SEM03 Folio</a></li>
+        <li class="nav__item"><a href="../SEM02/HTML5.html" class="nav__link">SEM02 html5</a></li>
+        <li class="nav__item"><a href="../SEM01/index.html" class="nav__link">SEM01</a></li>
+      </ul>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Inicio -->
+  <main>
+    <section class="inicio section" id="inicio">
+      <div class="inicio__container container">
+        <div class="inicio__content">
+          <span class="inicio__saludo">Hola, soy </span>
+          <h1 class="inicio__titulo">Javier Alejandro Paucar Ojeda</h1>
+          <h2 class="inicio__subtitulo" id="typewriter"></h2>
+          <p class="inicio__descripcion">
+            Desarrollador web apasionado por crear experiencias digitales modernas,
+            accesibles y de alto rendimiento.
+          </p>
+          <div class="inicio__botones">
+            <a href="#contacto" class="btn btn--primario">Contáctame</a>
+            <a href="#proyectos" class="btn btn--secundario">Ver proyectos</a>
+          </div>
+          <div class="inicio__redes">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="inicio__ilustracion">
+  <div class="inicio__circulo">
+    <img src="img/2511130240.jpg" alt="Foto de Javier Alejandro Paucar Ojeda">
+  </div>
+</div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="sobre section" id="sobre">
+      <div class="container">
+        <h2 class="section__titulo">Sobre <span>mí</span></h2>
+        <p class="section__subtitulo">Conoce quién soy</p>
+
+        <div class="sobre__grid">
+          <div class="sobre__perfil">
+            <div class="sobre__avatar">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="sobre__contenido">
+            <h3 class="sobre__titulo">Desarrollador Web Frontend</h3>
+            <p class="sobre__texto">
+              Soy un desarrollador web con experiencia creando aplicaciones y sitios
+              web responsivos. Me especializo en transformar ideas en productos
+              digitales funcionales y atractivos, enfocándome siempre en la experiencia
+              del usuario y en las mejores prácticas de desarrollo.
+            </p>
+            <div class="sobre__datos">
+              <div class="sobre__dato">
+                <span>Nombre:</span> Javier
+              </div>
+              <div class="sobre__dato">
+                <span>Email:</span> tu@email.com
+              </div>
+              <div class="sobre__dato">
+                <span>Ubicación:</span> Alemania, Paris
+              </div>
+              <div class="sobre__dato">
+                <span>Disponibilidad:</span> Freelance / Tiempo completo
+              </div>
+            </div>
+            <a href="#" class="btn btn--primario" download>
+              <i class="fas fa-download"></i> Descargar CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <h2 class="section__titulo">Mis <span>habilidades</span></h2>
+        <p class="section__subtitulo">Tecnologías que domino</p>
+
+        <div class="habilidades__grid">
+          <div class="habilidad">
+            <i class="fab fa-html5 habilidad__icono"></i>
+            <h3>HTML5</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="95">95%</div>
+            </div>
+          </div>
+
+          <div class="habilidad">
+            <i class="fab fa-css3-alt habilidad__icono"></i>
+            <h3>CSS3</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="90">90%</div>
+            </div>
+          </div>
+
+          <div class="habilidad">
+            <i class="fab fa-js-square habilidad__icono"></i>
+            <h3>JavaScript</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="85">85%</div>
+            </div>
+          </div>
+
+          <div class="habilidad">
+            <i class="fab fa-react habilidad__icono"></i>
+            <h3>React</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="80">80%</div>
+            </div>
+          </div>
+
+          <div class="habilidad">
+            <i class="fab fa-node-js habilidad__icono"></i>
+            <h3>Node.js</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="70">70%</div>
+            </div>
+          </div>
+
+          <div class="habilidad">
+            <i class="fas fa-database habilidad__icono"></i>
+            <h3>SQL / MongoDB</h3>
+            <div class="habilidad__barra">
+              <div class="habilidad__progreso" data-progreso="75">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="proyectos section" id="proyectos">
+      <div class="container">
+        <h2 class="section__titulo">Mis <span>proyectos</span></h2>
+        <p class="section__subtitulo">Algunos de mis trabajos recientes</p>
+
+        <div class="proyectos__grid" id="proyectos-grid">
+          <article class="proyecto">
+            <div class="proyecto__imagen">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="proyecto__info">
+              <h3 class="proyecto__titulo">Proyecto 1</h3>
+              <p class="proyecto__descripcion">
+                Descripción breve del proyecto y de la tecnología utilizada.
+              </p>
+              <div class="proyecto__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="proyecto__links">
+                <a href="#" aria-label="Ver código"><i class="fab fa-github"></i> Código</a>
+                <a href="#" aria-label="Ver demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <div class="proyecto__imagen">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="proyecto__info">
+              <h3 class="proyecto__titulo">Proyecto 2</h3>
+              <p class="proyecto__descripcion">
+                Descripción breve del proyecto y de la tecnología utilizada.
+              </p>
+              <div class="proyecto__tags">
+                <span>React</span><span>Node.js</span>
+              </div>
+              <div class="proyecto__links">
+                <a href="#" aria-label="Ver código"><i class="fab fa-github"></i> Código</a>
+                <a href="#" aria-label="Ver demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <div class="proyecto__imagen">
+              <i class="fas fa-cart-arrow-down"></i>
+            </div>
+            <div class="proyecto__info">
+              <h3 class="proyecto__titulo">Proyecto 3</h3>
+              <p class="proyecto__descripcion">
+                Descripción breve del proyecto y de la tecnología utilizada.
+              </p>
+              <div class="proyecto__tags">
+                <span>JavaScript</span><span>MongoDB</span>
+              </div>
+              <div class="proyecto__links">
+                <a href="#" aria-label="Ver código"><i class="fab fa-github"></i> Código</a>
+                <a href="#" aria-label="Ver demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto section" id="contacto">
+      <div class="container">
+        <h2 class="section__titulo">Contácta<span>me</span></h2>
+        <p class="section__subtitulo">¿Tienes un proyecto en mente? Hablemos</p>
+
+        <div class="contacto__grid">
+          <div class="contacto__info">
+            <div class="contacto__item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>tu@email.com</p>
+              </div>
+            </div>
+            <div class="contacto__item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+00 000 000 000</p>
+              </div>
+            </div>
+            <div class="contacto__item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Ubicación</h4>
+                <p>Ciudad, País</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contacto__formulario" id="contacto-form">
+            <div class="contacto__campo">
+              <input type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="contacto__campo">
+              <input type="email" name="email" placeholder="Tu email" required>
+            </div>
+            <div class="contacto__campo">
+              <input type="text" name="asunto" placeholder="Asunto" required>
+            </div>
+            <div class="contacto__campo">
+              <textarea name="mensaje" placeholder="Tu mensaje..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primario">
+              Enviar mensaje <i class="fas fa-paper-plane"></i>
+            </button>
+            <p class="contacto__mensaje" id="form-mensaje"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__texto">
+        © <span id="anio"></span> Tu Nombre. Todos los derechos reservados.
+      </p>
+      <div class="footer__redes">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
